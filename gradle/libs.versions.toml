@@ -1,0 +1,31 @@
+[versions]
+agp = "8.9.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+mediapipeTasksVisionVersion = "0.8.10"
+kotlin = "2.0.21"
+camerax = "1.3.0"
+tflite = "2.14.0"
+
+[libraries]
+google-mediapipe-tasks-vision = { module = "com.google.mediapipe:mediapipe-tasks-vision", version.ref = "mediapipeTasksVisionVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+mediapipe-framework = { module = "com.google.mediapipe:mediapipe-framework", version.ref = "mediapipeTasksVisionVersion" }
+androidx-core = { group = "androidx.core", name = "core-ktx", version = "1.16.0" }
+mediapipe-tasks = { group = "com.google.mediapipe", name = "tasks-vision", version = "0.20230731" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
