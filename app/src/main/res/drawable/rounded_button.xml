@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#6200EE"/> <!-- Button background color -->
+    <corners android:radius="24dp"/>  <!-- Corner roundness -->
+    <item android:drawable="?attr/selectableItemBackground" />
+
+</shape>
